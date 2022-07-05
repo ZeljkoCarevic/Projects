@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(226, 218, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(226, 218, 221, 1) 0%,
+    rgba(166, 148, 233, 1) 23%
+  );
+}
+.container {
+  background-color: rgb(210, 212, 212);
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-radius: 15px;
+}
+
+.button {
+  border-radius: 30px;
+  padding: 5px;
+  width: 50%;
+}
+
+.date {
+  border-radius: 10px;
+  text-align: center;
+}
+
+#countdown-timer {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+}
+.big-txt {
+  font-size: 3rem;
+  margin-bottom: 2px;
+}
+
+.days,
+.minutes,
+.seconds,
+.hours {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: center;
+  gap: 15px;
+  z-index: 1;
+}
+.button-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+}
